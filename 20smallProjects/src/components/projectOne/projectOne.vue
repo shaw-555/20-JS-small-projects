@@ -51,6 +51,7 @@ export default {
       }
     },
     checkEmail () {
+      // 你会
       const re = /^([A-Za-z0-9_\-.])+@([A-Za-z0-9_\-.])+.([A-Za-z]{2,4})$/
       if ((document.getElementById('email').value).trim() === '') {
         alert('此项为必填')
